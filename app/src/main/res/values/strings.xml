@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PushNotification</string>
+    <string name="main_activity">This is our Main Activity</string>
+    <string name="another_activity">This is our Another Activity</string>
+    <string name="fcm_message">Push Notification Test</string>
+    <string name="default_notification_channel_id">news</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "191249631489",
+    "firebase_url": "https://pushnotification-df342.firebaseio.com",
+    "project_id": "pushnotification-df342",
+    "storage_bucket": "pushnotification-df342.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191249631489:android:544b2d6513736a45",
+        "android_client_info": {
+          "package_name": "com.koti.apple.pushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191249631489-rkqcbkef6o3d5o1pmjb5a998c79i88b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT1JOt8kjVz9P6uvuhq-idTXwdUaS4NMI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
