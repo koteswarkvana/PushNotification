@@ -30,12 +30,15 @@ public class MainActivity extends AppCompatActivity {
         // is used when no click_action is specified.
         //
         // Handle possible data accompanying notification message.
-        /*try {
+        Intent intent1 =new Intent(this, MyFirebaseMessagingService.class);
+        startService(intent1);
+        try {
             if (getIntent().getExtras() != null) {
 
                 for (String key : getIntent().getExtras().keySet()) {
                     String value = getIntent().getExtras().getString(key);
 
+                    Log.e(TAG, "onCreate: >> ");
                     if (key.equals("AnotherActivity") && value.equals("True")) {
                         Intent intent = new Intent(this, AnotherActivity.class);
                         intent.putExtra("value", value);
@@ -46,10 +49,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-//            subscribeToPushService();
+            subscribeToPushService();
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
 
     }
 
